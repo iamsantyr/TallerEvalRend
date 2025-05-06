@@ -1,7 +1,6 @@
 # TallerEvalRend
 
-Este repositorio contiene un taller de evaluación de rendimiento de algoritmos de multiplicación de matrices en C, utilizando distintos modelos de paralelismo: 
-POSIX Threads, OpenMP y procesos con `fork()`. El objetivo es comparar el desempeño de cada enfoque en términos de tiempo de ejecución y eficiencia.
+Este repositorio contiene un taller de evaluación de rendimiento de algoritmos de multiplicación de matrices en C, utilizando distintos modelos de paralelismo: POSIX Threads, OpenMP y procesos con `fork()`. El objetivo es comparar el desempeño de cada enfoque en términos de tiempo de ejecución y eficiencia.
 
 ## Contenido del repositorio
 
@@ -12,8 +11,7 @@ POSIX Threads, OpenMP y procesos con `fork()`. El objetivo es comparar el desemp
 - `mmClasicaFork.c`: Implementación utilizando procesos con `fork()`.
 - `lanza.pl`: Script en Perl para automatizar la ejecución de pruebas.
 - `Makefile`: Archivo para compilar los programas.
-- `ResultadosClasicaPosix.zip`, `ResultadosClasicaOpenMP.zip`, `ResultadosClasicaFork.zip`: Archivos comprimidos con los resultados obtenidos en las pruebas de rendimiento
-      para cada enfoque.
+- `ResultadosClasicaPosix.zip`, `ResultadosClasicaOpenMP.zip`, `ResultadosClasicaFork.zip`: Archivos comprimidos con los resultados obtenidos en las pruebas de rendimientopara cada enfoque.
 
 ## Requisitos
 
